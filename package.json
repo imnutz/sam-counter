@@ -2,7 +2,6 @@
   "name": "sam",
   "version": "1.0.0",
   "description": "sam example",
-  "main": "index.js",
   "scripts": {
     "build": "browserify app.js -o bundle.js -t [ babelify --presets [ es2015 stage-2] ]"
   },
